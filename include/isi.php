@@ -61,6 +61,10 @@
      if ($aksi == "lunas") {
         include "page/laundry/lunas.php";
     }
+
+    if ($aksi == "reset") {
+        include "page/laundry/reset.php";
+    }
     
  
      }
@@ -74,6 +78,10 @@
         if ($aksi == "tambah") {
          include "page/transaksi/tambah.php";
      }
+
+     if ($aksi == "reset") {
+        include "page/transaksi/reset.php";
+    }
  
      }
 
